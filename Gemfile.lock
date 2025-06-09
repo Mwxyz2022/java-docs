@@ -310,7 +310,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  just-the-docs
+  just-the-docs (~> 0.10.1)
   webrick (~> 1.9)
 
 BUNDLED WITH
