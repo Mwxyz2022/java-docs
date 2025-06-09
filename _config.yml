@@ -1,0 +1,28 @@
+title: Конспекти з Java
+description: база знань та конспекти з вивчення Java.
+url: "https://Mwxyz2022.github.io"
+baseurl: "/java-docs"
+
+markdown: kramdown
+remote_theme: just-the-docs/just-the-docs
+
+search_enabled: true
+search_tokenizer_separator: /[\s\/\-]+/
+search_highlight: true
+
+search_tokenizer_skip_stemmer: true
+search_tokenizer_split_each_char: true
+search_stop_words: false
+
+nav_enabled: true
+aux_links: # Додаткові посилання (зверху справа)
+  "GitHub Репозиторій":
+    - "https://github.com/Mwxyz2022/java-docs"
+  "Зв'язатися":
+    - "mailto:my@example.com"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
