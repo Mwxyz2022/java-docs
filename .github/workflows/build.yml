@@ -15,11 +15,10 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.2'
           bundler-cache: true
 
       - name: Build Jekyll site
-
         run: bundle exec jekyll build --baseurl '/java-docs' --trace
 
       - name: Upload artifact for GitHub Pages
