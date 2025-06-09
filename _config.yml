@@ -1,28 +1,35 @@
-title: Конспекти з Java
-description: база знань та конспекти з вивчення Java.
+title: Java notes
+description: Knowledge base and notes on learning Java.
 url: "https://Mwxyz2022.github.io"
 baseurl: "/java-docs"
 
-markdown: kramdown
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
+markdown: kramdown
+
+# Настройки поиска
 search_enabled: true
 search_tokenizer_separator: /[\s\/\-]+/
 search_highlight: true
 
-search_tokenizer_skip_stemmer: true
-search_tokenizer_split_each_char: true
-search_stop_words: false
+# Цветовая схема - используйте одну из встроенных
+color_scheme: dark
 
+# Навигация
 nav_enabled: true
-aux_links: # Додаткові посилання (зверху справа)
-  "GitHub Репозиторій":
-    - "https://github.com/Mwxyz2022/java-docs"
-  "Зв'язатися":
-    - "mailto:my@example.com"
 
+# Внешние ссылки
+aux_links:
+  "GitHub repository":
+    - "https://github.com/Mwxyz2022/java-docs"
+
+# Исключения
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
   - README.md
+
+# Настройки Sass
+sass:
+  style: compressed
