@@ -1,3 +1,6 @@
 create_java_docs_structure.sh
 get.txt
 _site/
+/java_doc_raw.txt
+/generate_docs.py
+/.idea/
