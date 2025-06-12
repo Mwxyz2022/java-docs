@@ -6,6 +6,7 @@ has_children: true
 nav_order: 1
 ---
 # Java Core
+
 Це головна сторінка розділу "Java Core" з підрозділами:
 
 [//]: # (- [1. Основи Java: Memory, Wrapers, String]&#40;/java-docs/chapters/Java_Core/1_osnovi_java_memory_wrapers_string/&#41;)
