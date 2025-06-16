@@ -259,13 +259,22 @@ h3 strong
           color: #ff821b;
 }
 
-strong {
-    color: #188038
+h4 strong {
+          color: #1ba000;
 }
 
-h3, h4, h5, h6 {
-  color: var(--jtd-color-primary);
+h5 strong {
+          color: #94dbfc;
 }
+h6 strong {
+          color: #92d100;
+}
+
+strong {
+    color: #149c3d
+}
+
+
 
 // Таблиці
 table {
